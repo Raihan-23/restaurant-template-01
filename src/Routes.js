@@ -12,11 +12,11 @@ const ProjectRoutes = () => {
     let element = useRoutes([
         { path: "/", element: <Home /> },
         { path: "*", element: <NotFound /> },
-        { path: "home1", element: <Home1 /> },
-        // { path: "recipedetails", element: <RecipeDetails /> },
-        // { path: "bloglist", element: <BlogList /> },
-        // { path: "blogpost", element: <BlogPost /> },
-        // { path: "contact", element: <Contact /> },
+        { path: "/home1", element: <Home1 /> },
+        // { path: "/recipedetails", element: <RecipeDetails /> },
+        // { path: "/bloglist", element: <BlogList /> },
+        // { path: "/blogpost", element: <BlogPost /> },
+        // { path: "/contact", element: <Contact /> },
     ]);
 
     return element;
