@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Instagranslider .alice-carousel_dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: auto;
+    bottom: 92px;
+    left: 134.95px;
+    right: auto;
+}
+
+.alice-carousel_dots-item {
+    cursor: pointer;
+}
