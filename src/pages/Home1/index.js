@@ -23,6 +23,7 @@ export default function Home1Page() {
                 <Header />
                 <div className="mt-[38px] self-stretch">
                     <FeaturedRecipesSection />
+                    
                     <CategoriesSection />
                     <RecipeOverviewSection />
                     <HeroSection />
