@@ -1,13 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Img, Text, Heading, Button, Input } from "../../components"; 
+import { Img, Text, Heading, Button, Input } from "../../components/Index"; 
 import Header from "../../components/Header";
-import CategoriesSection from "../../CategoriesSection";
+import CategoriesSection from "../../components/Sectiones/Home/CategoriesSection";
 import FeaturedRecipesSection from "./FeaturedRecipesSection";
 import HeroSection from "./HeroSection";
 import InstagramSection from "./InstagramSection";
 import RecipeOverviewSection from "./RecipeOverviewSection";
 import RecipeSection from "./RecipeSection";
+
+
 
 export default function Home1Page() {
     return (

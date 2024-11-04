@@ -1,4 +1,4 @@
-import { Img, Button, Input, Heading } from "./../components";
+import { Img, Button, Input, Heading } from "./Index";
 import React from "react";
 
 export default function BlogPostRowOne({
@@ -12,21 +12,21 @@ export default function BlogPostRowOne({
       <div className="flex w-full items-end rounded-[60px] bg-light_blue-50_01 md:flex-col">
         <Img
           src="images/img_kisspng_salad_s.png"
-          alt="salad image"
+          alt="Salad image"
           className="mt-[66px] h-[374px] w-[28%] rounded-[60px] object-contain md:w-full"
         />
         <div className="relative ml-[-48px] flex-1 md:ml-0 md:self-stretch md:px-5">
           <div className="flex flex-col items-start">
             <Heading
-              size="heading6x1"
-              as="h2"
+              size="heading6xl"
+              as="h1"
               className="ml-3.5 text-[48px] font-semibold tracking-[-1.92px] text-black-900 md:ml-0 md:text-[44px] sm:text-[38px]"
             >
               {deliciousness}
             </Heading>
             <Heading
               as="p"
-              className="relative z-[1] mt-3.5 w-[64%] text-center text-[16px] font-normal leading-7 text-black-980/99 md:w-full"
+              className="relative z-[1] mt-3.5 w-[64%] text-center text-[16px] font-normal leading-7 text-black-900_99 md:w-full"
             >
               {description}
             </Heading>
