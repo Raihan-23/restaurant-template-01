@@ -1,4 +1,4 @@
-import { Img, Button, Input, Heading } from "./../components";
+import { Img, Button, Input, Heading } from "./Index";
 import React from "react";
 
 export default function BlogPostRowOne({

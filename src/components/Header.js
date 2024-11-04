@@ -1,6 +1,5 @@
 import React from 'react';
-import Img from "./Img"; 
-import Heading from "./Heading"; 
+import { Img, Heading } from "./Index";
 
 export default function Header(props) {
   return (

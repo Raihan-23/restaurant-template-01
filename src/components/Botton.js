@@ -60,4 +60,4 @@ Button.propTypes = {
   color: PropTypes.oneOf(["light_blue_50", "white_A700_cc", "white_A700", "black_900"]),
 };
 
-export default Button;
+export {Button};
