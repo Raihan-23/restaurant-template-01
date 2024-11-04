@@ -9,6 +9,8 @@ import InstagramSection from "./InstagramSection";
 import RecipeOverviewSection from "./RecipeOverviewSection";
 import RecipeSection from "./RecipeSection";
 
+
+
 export default function Home1Page() {
     return (
         <>

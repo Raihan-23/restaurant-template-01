@@ -1,7 +1,8 @@
 import React from 'react';
-import { Img, Heading } from "./..";
+import Img from "./Img"; 
+import Heading from "./Heading"; 
 
-export default function Header(...props) {
+export default function Header(props) {
   return (
     <header {...props} className={`${props.className} flex flex-col self-stretch gap-10`}>
       <div className="container-xs md:px-5">
