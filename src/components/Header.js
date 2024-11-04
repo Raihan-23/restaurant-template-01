@@ -1,7 +1,7 @@
 import React from 'react';
-import { Img, Heading } from "./../components";
+import { Img, Heading } from "./..";
 
-function Header(props) {
+export default function Header(...props) {
   return (
     <header {...props} className={`${props.className} flex flex-col self-stretch gap-10`}>
       <div className="container-xs md:px-5">
@@ -22,7 +22,7 @@ function Header(props) {
             <li>
               <a href="#">
                 <Heading as="p" className="text-[16px] font-medium tracking-[-0.32px] text-black-900">
-                  About Us
+                  Recipes
                 </Heading>
               </a>
             </li>
@@ -37,6 +37,13 @@ function Header(props) {
               <a href="/contact">
                 <Heading as="p" className="text-[16px] font-medium tracking-[-0.32px] text-black-900">
                   Contact
+                </Heading>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <Heading as="p" className="text-[16px] font-medium tracking-[-0.32px] text-black-900">
+                  About Us
                 </Heading>
               </a>
             </li>
@@ -61,4 +68,3 @@ function Header(props) {
   );
 }
 
-export default Header;
